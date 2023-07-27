@@ -1,0 +1,29 @@
+/* App.css */
+
+.App {
+  /* Add any global styles for the entire app here */
+}
+
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px; 
+  background-color: #f0f0f0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 999; 
+}
+
+.PostsGridContainer {
+  padding-top: 60px;
+  overflow-y: auto;
+  height: calc(100vh - 60px); 
+  display: flex;
+  justify-content: center;
+}
+
